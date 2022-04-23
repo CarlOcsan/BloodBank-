@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/drawable/ic_email.xml" value="0.1355" />
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/drawable/ic_number.xml" value="0.1355" />
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/drawable/ic_person.xml" value="0.1355" />
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/drawable/ic_phone.xml" value="0.1355" />
         <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/layout/activity_blood_bank.xml" value="0.184375" />
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/layout/activity_donor_registration.xml" value="0.184375" />
         <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/layout/activity_login.xml" value="0.184375" />
         <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ocsan/Desktop/Last Sem/SODV3203/BloodBank/app/src/main/res/layout/activity_select_reg.xml" value="0.184375" />
       </map>
     </option>
   </component>
