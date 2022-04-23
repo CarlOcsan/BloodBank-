@@ -15,6 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -34,6 +36,10 @@ public class DonorRegistrationActivity extends AppCompatActivity {
     private Uri resultUri;
 
     private ProgressDialog loader;
+
+    private FirebaseAuth mAuth;
+    private DatabaseReference userDatabaseRef;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +64,8 @@ public class DonorRegistrationActivity extends AppCompatActivity {
         groupSpinner = findViewById(R.id.groupSpinner);
         registerBtn = findViewById(R.id.registerBtn);
         loader = new ProgressDialog(this);
+
+        mAuth = FirebaseAuth.getInstance();
 
         profile_img.setOnClickListener(new View.OnClickListener() {
             @Override
