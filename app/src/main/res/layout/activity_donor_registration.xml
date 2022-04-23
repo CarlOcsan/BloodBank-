@@ -85,7 +85,7 @@
                     app:hintTextAppearance="@color/colorPrimary"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/registerName"
+                        android:id="@+id/registerPhoneNumber"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Enter Phone Number"
@@ -163,7 +163,7 @@
                         android:id="@+id/registerPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Enter PPassword"
+                        android:hint="Enter Password"
                         android:inputType="textPassword"
                         android:drawablePadding="10dp"
                         android:textColor="@color/black"
